@@ -1,0 +1,45 @@
+/*
+	Theme Name:   TwentyTwenty, Souped up
+	Theme URI:    https://github.com/soup-bowl/soupbowl-twentytwenty
+	Description:  Twentytwenty theme with preferential adjustments.
+	Author:       soup-bowl
+	Author URI:   https://www.soupbowl.io
+	Template:     twentytwenty
+	Version:      1.0
+	License:      GNU General Public License v3 or later
+	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+.entry-content p, .entry-content ol, .entry-content ul, .entry-content dl, .entry-content dt {
+    font-family: NonBreakingSpaceOverride, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: normal;
+	font-weight: 200;
+}
+
+/* 378 = Homepage */
+#post-378 .entry-header {
+	display: none;
+}
+
+#post-378 .post-inner {
+	padding-top: 0px;
+}
+
+#post-378 .sb-top-banner {
+	margin-top: 0px;
+	z-index: 0;
+}
+@media ( min-width: 700px ) {
+	.archive-header, .singular .entry-header {
+			padding: 4rem 0;
+	}
+}
+
+.soupy-404-spacer {
+	height: 500px;
+}
+
+.error404-content {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1em;
+}
