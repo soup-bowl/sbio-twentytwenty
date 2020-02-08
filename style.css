@@ -11,8 +11,8 @@
 */
 
 .entry-content p, .entry-content ol, .entry-content ul, .entry-content dl, .entry-content dt {
-    font-family: NonBreakingSpaceOverride, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-    letter-spacing: normal;
+	font-family: NonBreakingSpaceOverride, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: normal;
 	font-weight: 200;
 }
 
