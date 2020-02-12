@@ -4,6 +4,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #d7d7d7;
+	text-shadow: 0 0 3px black;
 }
 
 .login form {
@@ -14,9 +15,14 @@ body {
 
 .login h1 a {
 	background-image: url('img/logo.png');
+	background-color: white;
 	background-size: 100px;
+	background-position: center;
 	width: 100px;
 	height: 100px;
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: 0 0 5px #5556;
 }
 
 label[for="user_login"],
