@@ -20,6 +20,6 @@ add_action(
 
 add_action(
 	'login_enqueue_scripts', function() {
-		wp_enqueue_style( 'parent', get_stylesheet_directory_uri() . '/style-login.css', [], '1.0' );
+		wp_enqueue_style( 'parent', get_stylesheet_directory_uri() . '/style-login.css', [], '1.1' );
 	}
 );
