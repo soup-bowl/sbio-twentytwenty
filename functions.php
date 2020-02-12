@@ -18,4 +18,8 @@ add_action(
 	}
 );
 
-add_action( 'customize_register', [ 'SB_Customizer_Additional', 'register' ] );
+add_action(
+	'login_enqueue_scripts', function() {
+		wp_enqueue_style( 'parent', get_stylesheet_directory_uri() . '/style-login.css', [], '1.0' );
+	}
+);
