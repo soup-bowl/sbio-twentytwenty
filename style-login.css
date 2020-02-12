@@ -1,6 +1,32 @@
+body {
+	background-color:rgb(170, 170, 170);
+	background-size: cover;
+}
+
+.login form {
+	background-color: inherit;
+	border: none;
+	box-shadow: none;
+}
+
 .login h1 a {
-	background-image: url('logo.png');
-	background-size: 150px;
-	width: 150px;
-	height: 150px;
+	background-image: url('img/logo.png');
+	background-size: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+label[for="user_login"],
+label[for="user_pass"] {
+    display:none;
+}
+
+.login input[type="text"] {
+	margin: 0;
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
+}
+
+.login input[type="password"] {
+	border-radius: 0 0 5px 5px;
 }
