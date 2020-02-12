@@ -7,6 +7,11 @@ body {
 	text-shadow: 0 0 3px black;
 }
 
+.login .message {
+	color: #000!important;
+	text-shadow: none!important;
+}
+
 .login form {
 	background-color: inherit;
 	border: none;
