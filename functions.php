@@ -19,7 +19,8 @@ add_action(
 );
 
 add_action(
-	'login_enqueue_scripts', function() {
+	'login_enqueue_scripts',
+	function() {
 		wp_register_script( 'soupbowl-login', get_stylesheet_directory_uri() . '/style-login.js', [], '1.0', true );
 		wp_localize_script( 'soupbowl-login', 'soupy', [ 'url' => get_site_url() ] );
 
