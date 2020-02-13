@@ -7,6 +7,7 @@ body {
 	text-shadow: 0 0 3px black;
 }
 
+#login_error,
 .login .message {
 	color: #000!important;
 	text-shadow: none!important;
