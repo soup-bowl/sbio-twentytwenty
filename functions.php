@@ -20,6 +20,7 @@ add_action(
 
 add_action(
 	'login_enqueue_scripts', function() {
-		wp_enqueue_style( 'parent', get_stylesheet_directory_uri() . '/style-login.css', [], '1.2' );
+		wp_enqueue_style( 'soupbowl-login', get_stylesheet_directory_uri() . '/style-login.css', [], '1.0.2' );
+		wp_enqueue_script( 'soupbowl-login', get_stylesheet_directory_uri() . '/style-login.js', [], '1.0', true );
 	}
 );

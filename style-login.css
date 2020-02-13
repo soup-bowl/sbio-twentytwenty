@@ -16,6 +16,7 @@ body {
 	background-color: inherit;
 	border: none;
 	box-shadow: none;
+	animation: fadein 2s;
 }
 
 .login h1 a {
@@ -28,24 +29,35 @@ body {
 	padding: 10px;
 	border-radius: 25px;
 	box-shadow: 0 0 5px #5556;
+	animation: fadein 2s;
 }
 
-label[for="user_login"],
-label[for="user_pass"] {
+.login label[for="user_login"],
+.login label[for="user_pass"] {
     display:none;
 }
 
-.login input[type="text"] {
+.login form .input {
+	padding: 0.25em;
+	font-size: 18px;
+}
+
+.login #user_login {
 	margin: 0;
 	border-radius: 5px 5px 0 0;
 	border-bottom: none;
 }
 
-.login input[type="password"] {
+.login #user_pass {
 	border-radius: 0 0 5px 5px;
 }
 
 .login #backtoblog a, .login #nav a {
     text-decoration: none;
     color: #d7d7d7;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
