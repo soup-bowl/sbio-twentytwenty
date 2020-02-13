@@ -38,8 +38,8 @@ body {
 }
 
 .login form .input {
-	padding: 0.25em;
-	font-size: 18px;
+	padding: 0.5em;
+	font-size: 16px;
 }
 
 .login #user_login {
@@ -55,6 +55,15 @@ body {
 .login #backtoblog a, .login #nav a {
     text-decoration: none;
     color: #d7d7d7;
+}
+
+#nav {
+	text-align: center;
+	animation: fadein 2s;
+}
+
+#backtoblog {
+	display: none;
 }
 
 @keyframes fadein {
