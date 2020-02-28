@@ -19,6 +19,15 @@ add_action(
 );
 
 add_action(
+	'wp_head',
+	function() {
+		?>
+		<meta name="theme-color" content="#1c1c1c">
+		<?php
+	}
+);
+
+add_action(
 	'login_enqueue_scripts',
 	function() {
 		wp_register_script( 'soupbowl-login', get_stylesheet_directory_uri() . '/style-login.js', [], '1.0', true );
