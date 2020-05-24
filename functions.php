@@ -22,7 +22,7 @@ add_action(
 	'wp_head',
 	function() {
 		?>
-		<meta name="theme-color" content="#1c1c1c">
+		<meta name="theme-color" content="#0f0f0f">
 		<?php
 	}
 );
