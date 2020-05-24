@@ -10,7 +10,8 @@
 	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-.entry-content p, .entry-content ol, .entry-content ul, .entry-content dl, .entry-content dt {
+.entry-content, .entry-content p, .entry-content ol, .entry-content ul, .entry-content dl, .entry-content dt,
+.widget_text p, .widget_text ol, .widget_text ul, .widget_text dl, .widget_text dt, .widget-content .rssSummary {
 	font-family: NonBreakingSpaceOverride, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	letter-spacing: normal;
 	font-weight: 200;
