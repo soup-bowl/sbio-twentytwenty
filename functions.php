@@ -50,6 +50,9 @@ add_action(
 
 		wp_enqueue_style( 'soupbowl-login', get_stylesheet_directory_uri() . '/style-login.css', [], '1.0.2' );
 		wp_enqueue_script( 'soupbowl-login' );
+
+		$logo_url = get_site_icon_url( '150' );
+		wp_add_inline_style( 'soupbowl-login', ".login h1 a { background-image: url('{$logo_url}'); }" );
 	}
 );
 

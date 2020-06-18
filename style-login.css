@@ -21,7 +21,6 @@ body {
 }
 
 .login h1 a {
-	background-image: url('img/logo.png');
 	background-color: white;
 	background-size: 100px;
 	background-position: center;
