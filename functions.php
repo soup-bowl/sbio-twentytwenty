@@ -15,6 +15,21 @@ add_action(
 	'wp_enqueue_scripts',
 	function() {
 		wp_enqueue_style( 'parent', get_template_directory_uri() . '/style.css', [], '1.0' );
+
+		$logo_url = get_site_icon_url();
+		$logo_css = ( ! empty( $logo_url ) ) ? "background-image: url(\"{$logo_url}\");" : null;
+
+		if ( isset( $logo_css ) ) {
+			wp_enqueue_style( 'soupys-custom-extravaganza', get_stylesheet_directory_uri() . '/style-custom.css', [], '1.0' );
+
+			$custom_style = "
+			#site-content::before {
+				{$logo_css}
+			}
+			";
+
+			wp_add_inline_style( 'soupys-custom-extravaganza', $custom_style );
+		}
 	}
 );
 
