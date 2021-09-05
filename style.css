@@ -5,7 +5,7 @@
 	Author:       soup-bowl
 	Author URI:   https://www.soupbowl.io
 	Template:     twentytwenty
-	Version:      1.2.1
+	Version:      1.2.2
 	License:      GNU General Public License v3 or later
 	License URI:  http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -15,6 +15,18 @@
 	font-family: NonBreakingSpaceOverride, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	letter-spacing: normal;
 	font-weight: 200;
+}
+
+.menu-separator a,
+.menu-separator a:hover,
+.menu-separator a:focus {
+	color: #848484;
+	text-decoration: none;
+}
+
+/* Makes the default template content wider. */
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 120rem;
 }
 
 /* 378 = Homepage */
