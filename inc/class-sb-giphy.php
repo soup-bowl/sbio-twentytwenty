@@ -17,7 +17,8 @@ if ( ! class_exists( 'SB_Giphy' ) ) {
 		 */
 		public static function get() {
 			$giphy_key = get_theme_mod( 'soupys_giphy_key', null );
-			$giphy_url = "https://api.giphy.com/v1/gifs/random?api_key={$giphy_key}&tag=&rating=G";
+			$giphy_trm = get_theme_mod( 'soupy_giphy_term', null );
+			$giphy_url = "https://api.giphy.com/v1/gifs/random?api_key={$giphy_key}&tag={$giphy_trm}&rating=G";
 			$gif       = null;
 
 			if ( ! empty( $giphy_key ) ) {
