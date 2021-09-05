@@ -2,6 +2,7 @@
 The default [twentytwenty theme][tt] with a few customisations unique to [soupbowl.io][sb].
 
 ## Summary
+* Hides homepage title, and removes padding to permit use of a header cover as a title.
 * Switched to sans-serif fonts used globally.
 * 404 pages have a random message & a [GIPHY][gip] background ([example][sb4]).
   * As of 1.2.1, you can now customise the search term.
