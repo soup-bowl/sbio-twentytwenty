@@ -29,16 +29,16 @@
     max-width: 120rem;
 }
 
-/* 378 = Homepage */
-#post-378 .entry-header {
+/* Homepage header adjustments */
+.home .entry-header {
 	display: none;
 }
 
-#post-378 .post-inner {
+.home .post-inner {
 	padding-top: 0px;
 }
 
-#post-378 .sb-top-banner {
+.home .sb-top-banner {
 	margin-top: 0px;
 	z-index: 0;
 }
