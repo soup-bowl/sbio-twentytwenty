@@ -33,6 +33,9 @@ add_action(
 	}
 );
 
+/* Register custom theme settings. */
+add_action( 'customize_register', [ 'SB_Customizer_Additional', 'register' ] );
+
 add_action(
 	'wp_head',
 	function() {
