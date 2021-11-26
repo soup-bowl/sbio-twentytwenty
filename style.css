@@ -24,9 +24,124 @@
 	text-decoration: none;
 }
 
+/* Footer Socials */
+#menu-social {
+	width: 100%;
+	text-align: center;
+}
+
+#menu-social li, #menu-social ul {
+	border: 0 !important;
+	list-style: none;
+	padding-left: 0;
+}
+
+#menu-social li a span {
+	display: none;
+}
+
+#menu-social a {
+	font-size: 28px;
+	line-height: 40px;
+	list-style: none;
+	text-align: center;
+}
+
+#menu-social a:hover,
+#menu-social a:focus {
+	text-decoration: none;
+}
+
+#menu-social li {
+	border: none;
+	display: inline-block;
+	margin: 0;
+}
+
+#menu-social li a[href*="github.com"] {
+	background-color: #000;
+	color: #fff;
+}
+
+#menu-social li a[href*="github.com"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f113";
+}
+
+#menu-social li a[href*="gitlab.com"] {
+	background-color: #f96424;
+	color: #fff;
+}
+
+#menu-social li a[href*="gitlab.com"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f296";
+}
+
+#menu-social li a[href*="docker.com"] {
+	background-color: #364c53;
+	color: #8ec9f6;
+}
+
+#menu-social li a[href*="docker.com"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f395";
+}
+
+#menu-social li a[href*="reddit.com"] {
+	background-color: orangered;
+	color: #fff;
+}
+
+#menu-social li a[href*="reddit.com"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f281";
+}
+
+#menu-social li a[href*="twitter.com"] {
+	background-color: rgb(29, 155, 240);
+	color: #fff;
+}
+
+#menu-social li a[href*="twitter.com"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f099";
+}
+
+#menu-social li a[href*="g.dev"] {
+	background-color: #4285f4;
+	color: #fff;
+}
+
+#menu-social li a[href*="g.dev"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f1a0";
+}
+
+#menu-social li a[href*="last.fm"] {
+	background-color: #ba0000;
+	color: #fff;
+}
+
+#menu-social li a[href*="last.fm"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f202";
+}
+
+#menu-social li a[href*="wordpress.org"] {
+	background-color: #d7dade;
+	color: #23282d;
+}
+
+#menu-social li a[href*="wordpress.org"]::before {
+	font-family: 'Font Awesome\ 5 Brands';
+	content: "\f19a";
+}
+/* ! Footer Socials */
+
 /* Makes the default template content wider. */
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
-    max-width: 120rem;
+	max-width: 120rem;
 }
 
 /* Homepage header adjustments */

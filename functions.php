@@ -14,6 +14,7 @@ require __DIR__ . '/classes/class-sb-customizer-additional.php';
 add_action(
 	'wp_enqueue_scripts',
 	function() {
+		wp_enqueue_style( 'fa', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css', [] );
 		wp_enqueue_style( 'parent', get_template_directory_uri() . '/style.css', [], '1.0' );
 
 		$logo_url = get_site_icon_url();
@@ -65,5 +66,12 @@ add_action(
 		add_theme_support( 'editor-styles' );
 
 		add_editor_style( 'editor-style.css' );
+	}
+);
+
+add_action(
+	'init',
+	function () {
+		register_nav_menu( 'sbio_identities_foot', 'Social Identities Footer' );	
 	}
 );
