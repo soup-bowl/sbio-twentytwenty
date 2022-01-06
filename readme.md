@@ -1,6 +1,8 @@
 # Twentytwenty - Soupbowl Remix
 The default [twentytwenty theme][tt] with a few customisations unique to [soupbowl.io][sb].
 
+**⚠️ Discontinued as the site now uses a different CMS.** 
+
 ## Summary
 * Hides homepage title, and removes padding to permit use of a header cover as a title.
 * Switched to sans-serif fonts used globally.
